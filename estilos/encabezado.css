@@ -1,0 +1,40 @@
+.encabezado{
+    display: flex;
+    max-width: 1000px;
+    margin: 10px auto;
+    height: 60px;
+    justify-content: space-between;
+    align-items: center;
+}
+.encabezado__img__busqueda{
+    display: flex;
+    align-items: center;
+    width: auto;
+}
+.encabezado__busqueda{
+    width:300px;
+    height: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
+    border-radius: 20px;
+    border: 0;
+    background: #eee;
+}
+.fa-magnifying-glass{
+    position: relative;
+    right: 30px;
+    color:#aaa;
+}
+.encabezado__login{
+    display: flex;
+    width: 130px;
+    height: 30px;
+    border: 2px solid #2a7ae4;
+    border-radius: 2px;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado__btnLogin{
+    text-decoration: none;
+    color: #2a7ae4;
+}
