@@ -1,6 +1,6 @@
 .banner{
     display: flex;
-    max-width: 1000px;
+    width: 100vw;
     margin: 10px auto;
     height: 330px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -9,12 +9,19 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
-    width: 100%;
+    width: 100vw;
     height: 330px;
     background-image: url(..//img/banner-image.png);
-    background-size: 1000px 400px;
+    background-size: 100% 330px;
     background-repeat: no-repeat;
-    padding-left: 10%;
+}
+.banner__info{
+    display: flex;
+    width: 1000px;
+    height: 330px;
+    margin: 10px auto;
+    flex-direction: column;
+    justify-content:end;
 }
 .banner__titulo{
     color: #fff;
