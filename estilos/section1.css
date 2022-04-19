@@ -1,0 +1,110 @@
+.section1{
+    max-width: 1440px;
+    margin: 30px auto;
+}
+.section1__container{
+    max-width: 1136px;
+    height: 306px;
+    margin: 0 auto;
+}
+.section1__cabecera{
+    width: 100%;
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+}
+.section1__titulo{
+    width: 148px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #464646;
+}
+.section1__a{
+    position: static;
+    width: 65px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    text-decoration: none;
+    cursor: pointer;
+}
+.fa-arrow-right{
+    color: #2A7AE4;
+}
+.section1__list{
+    display: flex;
+    justify-content: space-between;
+    width: 1136px;
+}
+.section1__description{
+    width: 176px;
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    margin-bottom: 10px;
+}
+.section1__price{
+    width: 176px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+    margin-bottom: 10px;
+}
+.section1__link{
+    text-decoration: none;
+    width: 100px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #2A7AE4;
+    margin-bottom: 10px;
+}
+.section1__img{
+    width: 176px;
+    height: 174px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+/*.section1__img:nth-child(1){
+    background-image: url(../img/StarWars/img1.png);
+}
+.section1__img:nth-child(2){
+    background-image: url(../img/StarWars/img2.png);
+}*/
+.section1 li:nth-child(1) .section1__img{
+    background-image: url(../img/StarWars/img1.png);
+}
+.section1 li:nth-child(2) .section1__img{
+    background-image: url(../img/StarWars/img2.png);
+}
+.section1 li:nth-child(3) .section1__img{
+    background-image: url(../img/StarWars/img3.png);
+}
+.section1 li:nth-child(4) .section1__img{
+    background-image: url(../img/StarWars/img4.png);
+}
+.section1 li:nth-child(5) .section1__img{
+    background-image: url(../img/StarWars/img5.png);
+}
+.section1 li:nth-child(6) .section1__img{
+    background-image: url(../img/StarWars/img6.png);
+}
