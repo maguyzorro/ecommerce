@@ -1,19 +1,20 @@
-.section1{
+.section2{
     max-width: 1440px;
-    margin: 30px auto;
+    margin: 0px auto;
+    margin-top: 60px;
 }
-.section1__container{
+.section2__container{
     max-width: 1136px;
     height: 306px;
     margin: 0 auto;
 }
-.section1__cabecera{
+.section2__cabecera{
     width: 100%;
     display: flex;
     height: auto;
     justify-content: space-between;
 }
-.section1__titulo{
+.section2__titulo{
     width: 148px;
     height: 38px;
     font-family: 'Raleway';
@@ -24,7 +25,7 @@
     color: #464646;
     margin-bottom: 15px;
 }
-.section1__a{
+.section2__a{
     position: static;
     width: 65px;
     height: 19px;
@@ -40,12 +41,12 @@
 .fa-arrow-right{
     color: #2A7AE4;
 }
-.section1__list{
+.section2__list{
     display: flex;
     justify-content: space-between;
     width: 1136px;
 }
-.section1__description{
+.section2__description{
     width: 176px;
     height: 16px;
     font-family: 'Raleway';
@@ -56,7 +57,7 @@
     color: #464646;
     margin-bottom: 10px;
 }
-.section1__price{
+.section2__price{
     width: 176px;
     height: 19px;
     font-family: 'Raleway';
@@ -67,7 +68,7 @@
     color: #464646;
     margin-bottom: 10px;
 }
-.section1__link{
+.section2__link{
     text-decoration: none;
     width: 100px;
     height: 19px;
@@ -79,27 +80,27 @@
     color: #2A7AE4;
     margin-bottom: 10px;
 }
-.section1__img{
+.section2__img{
     width: 176px;
     height: 174px;
     background-size: cover;
     margin-bottom: 10px;
 }
-.section1 li:nth-child(1) .section1__img{
-    background-image: url(../img/StarWars/img1.png);
+.section2 li:nth-child(1) .section2__img{
+    background-image: url(../img/Consolas/img1.png);
 }
-.section1 li:nth-child(2) .section1__img{
-    background-image: url(../img/StarWars/img2.png);
+.section2 li:nth-child(2) .section2__img{
+    background-image: url(../img/Consolas/img2.png);
 }
-.section1 li:nth-child(3) .section1__img{
-    background-image: url(../img/StarWars/img3.png);
+.section2 li:nth-child(3) .section2__img{
+    background-image: url(../img/Consolas/img3.png);
 }
-.section1 li:nth-child(4) .section1__img{
-    background-image: url(../img/StarWars/img4.png);
+.section2 li:nth-child(4) .section2__img{
+    background-image: url(../img/Consolas/img4.png);
 }
-.section1 li:nth-child(5) .section1__img{
-    background-image: url(../img/StarWars/img5.png);
+.section2 li:nth-child(5) .section2__img{
+    background-image: url(../img/Consolas/img5.png);
 }
-.section1 li:nth-child(6) .section1__img{
-    background-image: url(../img/StarWars/img6.png);
+.section2 li:nth-child(6) .section2__img{
+    background-image: url(../img/Consolas/img6.png);
 }
