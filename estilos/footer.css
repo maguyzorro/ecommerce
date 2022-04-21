@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 102px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.footer__1, .footer__2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #464646;
+}
+.footer__2{
+    margin-top: 5px;
+}
