@@ -92,3 +92,114 @@
         height: 102px;
     }
 }
+@media (max-width: 400px){
+    .encabezado{
+        width: 360px;
+        box-sizing: border-box;
+    }
+    .encabezado__container{
+        width: 100%;
+        padding: 0px;
+    }
+    .encabezado__busqueda{
+        display: none;
+    }
+    .encabezado__login{
+        position: relative;
+        left: -75px;
+    }
+    .fa-magnifying-glass{
+        right: -223px;
+        font-size: 25px;
+        color: #464646;;
+    }
+    .banner{
+        width: 400px;
+        height: 185px;
+    }
+    .banner__img{
+        width: 400px;
+        height: 192px;
+        background-size: 400px 192px;
+    }
+    .banner__info{
+        width: 360px;
+        height: 192px;
+        margin-bottom: 0;
+        padding-bottom: 15px;
+    }
+    .banner__titulo{
+        height: 26px;
+        font-size: 22px;
+        margin-bottom: 0;
+    }
+    .banner__paragrph{
+        height: 16px;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .banner__btn{
+        margin-top: 10px;
+    }
+    .section1, .section2, .diversos{
+        width: 400px;
+        height: auto;
+    }
+    .section1__container, .section1__list, .section2__container, .section2__list, .diversos__container, .diversos__list{
+        width: 360px;
+        height: 588px;
+    }
+    .section1__titulo, .section2__titulo, .diversos__titulo{
+        font-size: 22px;
+    }
+    .section1__list, .section2__list, .diversos__list{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .section1__img, .section2__img, .diversos__img{
+        width: 156px;
+    }
+    .rodapie{
+        width: 400px;
+        height: 553px;
+    }
+    .rodapie__container{
+        width: 360px;
+        height: 521px;
+
+    }
+    .rodapie__list li:nth-child(1), .rodapie__list li:nth-child(2){
+        width: 100%;
+        align-items: center;
+    }
+    .rodapie__list li:nth-child(1){
+        display: flex;
+        justify-content: center;
+        margin: 10px 0 0;
+    }
+    .rodapie__list li:nth-child(2){
+        margin-left: 0;
+        height: 180px;
+        margin-top: 10px;
+        color: #464646;
+    }
+    .rodapie__list li:nth-child(3){
+        position: initial;
+        top: 0px;
+        right: 0px;
+    }
+    .rodapie__form{
+        width: 360px;
+        margin-top: 20px;
+    }
+    .rodapie__LabelName{
+        display: block;
+        width: 360px;
+    }
+    .rodapie__inputName, .rodapie__inputMsg{
+        width: 355px;
+    }
+    .footer{
+        width: 360px;
+    }
+}

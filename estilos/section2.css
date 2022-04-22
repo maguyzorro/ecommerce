@@ -12,6 +12,7 @@
     width: 100%;
     display: flex;
     height: auto;
+    align-items: center;
     justify-content: space-between;
 }
 .section2__titulo{
