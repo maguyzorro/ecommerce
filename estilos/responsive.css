@@ -1,0 +1,94 @@
+@media (max-width: 768px){
+    .encabezado{
+        width: 100%;
+        margin: 0px auto;
+        height: 72px;
+    }
+    .encabezado__container{
+        height: 72px;
+        padding: 0px 50px;
+    }
+    .encabezado__img{
+        width: 95px;
+    }
+    .encabezado__busqueda{
+        width: 272px;
+    }
+    .encabezado__login{
+        width: 166px;
+        height: 40px;
+        box-sizing: border-box;
+        
+    }
+    .encabezado__btnLogin{
+        font-size: 14px;
+    }
+    .banner{
+        width: 768px;
+        height: 352px;
+    }
+    .banner__info{
+        width: 704px;
+    }
+    .banner__btn{
+        font-size: 14px;
+    }
+    .section1, .section2, .diversos{
+        width: 768px;
+    }
+    .section1__container, .section2__container, .diversos__container{
+        width: 704px;
+    }
+    .section1__list, .section2__list, .diversos__list{
+        width: inherit;
+    }
+    .section1__titulo, .section2__titulo, .diversos__titulo{
+        font-size: 26px;
+    }
+    .section1__a, .section2__a, .diversos__a{
+        font-size: 16px;
+    }
+    .section1__img, .section2__img, .diversos__img{
+        width: 164px;
+    }
+    .section1 li:nth-child(5), .section2 li:nth-child(5), .diversos li:nth-child(5){
+        display: none;
+    }
+    .section1 li:nth-child(6), .section2 li:nth-child(6), .diversos li:nth-child(6){
+        display: none;
+    }
+    .rodapie{
+        width: 768px;
+    }
+    .rodapie__container{
+        width: inherit;
+        height: inherit;
+    }
+    .rodapie__list{
+        display: initial;
+    }
+    .rodapie__list li:nth-child(1){
+        width: 40%;
+        margin-top: 30px;
+        margin-left: 30px;
+    }
+    .rodapie__list li:nth-child(2){
+        width: 40%;
+        margin-left: 30px;
+    }
+    .rodapie__list li:nth-child(3){
+        position: relative;
+        top: -285px;
+        right: -303px;
+    }
+    .rodapie__form{
+        width: 60%;
+    }
+    .rodapie__inputName, .rodapie__inputMsg{
+        width: 434px;
+    }
+    .footer{
+        width: 768px;
+        height: 102px;
+    }
+}
