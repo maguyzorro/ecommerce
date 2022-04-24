@@ -129,11 +129,13 @@
         padding-bottom: 15px;
     }
     .banner__titulo{
+        width: 360px;
         height: 26px;
         font-size: 22px;
         margin-bottom: 0;
     }
     .banner__paragrph{
+        width: 360px;
         height: 16px;
         font-size: 14px;
         margin-bottom: 10px;
@@ -166,7 +168,9 @@
     .rodapie__container{
         width: 360px;
         height: 521px;
-
+    }
+    .rodapie__list{
+        width: 360px;
     }
     .rodapie__list li:nth-child(1), .rodapie__list li:nth-child(2){
         width: 100%;
