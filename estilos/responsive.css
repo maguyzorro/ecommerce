@@ -101,15 +101,18 @@
         width: 100%;
         padding: 0px;
     }
+    .encabezado__img {
+        margin-left: 10px;
+    }
     .encabezado__busqueda{
         display: none;
     }
     .encabezado__login{
         position: relative;
-        left: -75px;
+        left: -60px;
     }
     .fa-magnifying-glass{
-        right: -223px;
+        right: -240px;
         font-size: 25px;
         color: #464646;;
     }
