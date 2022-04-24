@@ -207,6 +207,12 @@
         width: 355px;
     }
     .footer{
-        width: 360px;
+        width: 400px;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer__1, .footer__2{
+        width:auto;
+
     }
 }
