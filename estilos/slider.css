@@ -1,10 +1,15 @@
 .slider{
     box-sizing: border-box;
+    position:fixed;
+    top: 0;
+    left: 7.35%;
     width: 1440px;
     height: 900px;
     background: #E5E5E5;
     margin: 0 auto;
     padding-top: 50px;
+    z-index: 10;
+    display: none;
 }
 .slider__cabecera{
     width: 1136px;
